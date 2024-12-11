@@ -65,3 +65,4 @@ jobs:
           app-name: 'appdummytest'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6498216F27D54846B1B7BEA1C7A31900 }}
+          startup-command: 'streamli run app.py'
