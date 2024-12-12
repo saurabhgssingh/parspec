@@ -20,10 +20,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      # Step 3: Install dependencies directly (No virtual environment needed for Azure)
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+      # # Step 3: Install dependencies directly (No virtual environment needed for Azure)
+      # - name: Install dependencies
+      #   run: |
+      #     pip install -r requirements.txt
 
       # Optional: Add step to run tests here (e.g., PyTest, etc.)
 
